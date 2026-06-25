@@ -17,7 +17,7 @@ export default function Eyebrow({ children, theme = "light" }: EyebrowProps) {
     >
       <span
         aria-hidden="true"
-        className="inline-block h-1.5 w-1.5 flex-none rounded-full bg-signal"
+        className="inline-block h-1.5 w-1.5 flex-none rounded-[1px] bg-signal"
       />
       {children}
     </p>

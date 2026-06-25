@@ -34,7 +34,7 @@ export default function Ventures() {
                   {/* Green dot reserved for "Live"; in-progress statuses use a muted dot. */}
                   <span
                     aria-hidden="true"
-                    className={`inline-block h-1.5 w-1.5 rounded-full ${
+                    className={`inline-block h-1.5 w-1.5 rounded-[1px] ${
                       item.status === "Live" ? "bg-signal" : "bg-slate"
                     }`}
                   />
