@@ -57,7 +57,7 @@ export const platform = {
 } as const;
 
 /** Venture status drives the indicator dot — "Live" is the only one shown in green. */
-type VentureStatus = "Live" | "Testing" | "Development";
+type VentureStatus = "Live" | "Pre-launch" | "Testing" | "Development";
 
 interface Venture {
   name: string;
@@ -73,7 +73,7 @@ export const ventures = {
       name: "Baserate",
       description:
         "Direct-to-customer car and asset finance. No broker fees, no commissions — just fast, low-cost finance.",
-      status: "Testing",
+      status: "Pre-launch",
     },
     {
       name: "Insurity",
