@@ -31,9 +31,12 @@ export default function Ventures() {
               </div>
               {item.status && (
                 <span className="inline-flex flex-none items-center gap-2 font-mono text-xs uppercase tracking-label text-ink">
+                  {/* Green dot reserved for "Live"; in-progress statuses use a muted dot. */}
                   <span
                     aria-hidden="true"
-                    className="inline-block h-1.5 w-1.5 rounded-full bg-signal"
+                    className={`inline-block h-1.5 w-1.5 rounded-full ${
+                      item.status === "Live" ? "bg-signal" : "bg-slate"
+                    }`}
                   />
                   {item.status}
                 </span>

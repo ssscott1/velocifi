@@ -56,6 +56,15 @@ export const platform = {
   ],
 } as const;
 
+/** Venture status drives the indicator dot — "Live" is the only one shown in green. */
+type VentureStatus = "Live" | "Testing" | "Development";
+
+interface Venture {
+  name: string;
+  description: string;
+  status: VentureStatus;
+}
+
 export const ventures = {
   eyebrow: "03 — VENTURES",
   heading: "Our ventures.",
@@ -64,11 +73,17 @@ export const ventures = {
       name: "Baserate",
       description:
         "Direct-to-consumer, brokerless car finance. Australia.",
-      status: "Live",
+      status: "Testing",
     },
-  ],
+    {
+      name: "Insurity",
+      description:
+        "Fast quotes with no broker fees, for car, home and business insurance.",
+      status: "Development",
+    },
+  ] as Venture[],
   note: "More to come.",
-} as const;
+};
 
 export const contact = {
   eyebrow: "04 — CONTACT",
