@@ -23,18 +23,18 @@ export const nav = {
 } as const;
 
 export const hero = {
-  eyebrow: "AI-NATIVE FINANCIAL SERVICES · PRODUCTION HOUSE",
+  eyebrow: "AUTONOMOUS FINANCIAL SERVICES · PRODUCTION HOUSE",
   // The headline period is rendered as a green accent in the component.
-  headline: "We build AI-native financial ventures",
+  headline: "We build financial ventures that run themselves",
   subline:
-    "A founder-owned production house — from thesis to product to capital.",
+    "A founder-owned production house — from thesis to product to capital. The work runs on software, not headcount.",
   cta: { label: "Get in touch", href: "#contact" },
 } as const;
 
 export const about = {
   eyebrow: "01 — THE THESIS",
   heading: "Build once. Launch many.",
-  body: "Most companies build their technology once and use it once. We build a reusable Sales AI and Finance AI platform — and launch a portfolio of businesses on top of it. Each launch is faster, leaner, and sharper than the last.",
+  body: "Most companies build their technology once and use it once. We build one reusable platform — software that finds customers, makes the decisions, and runs the operations — and launch a portfolio of businesses on top of it. Each launch is faster, leaner, and sharper than the last.",
 } as const;
 
 export const platform = {
@@ -42,12 +42,12 @@ export const platform = {
   heading: "One platform. Many businesses.",
   points: [
     {
-      label: "Sales AI",
-      body: "Acquisition, qualification, and conversion.",
+      label: "Sales",
+      body: "Acquisition, qualification, and conversion. Automated, around the clock.",
     },
     {
-      label: "Finance AI",
-      body: "Application, decisioning, compliance, and settlement.",
+      label: "Finance",
+      body: "Application, decisioning, compliance, and settlement. Resolved in minutes.",
     },
     {
       label: "Shared infrastructure",

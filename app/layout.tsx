@@ -5,12 +5,12 @@ import Footer from "@/components/Footer";
 import { site } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: `${site.name} — AI-native financial ventures`,
+  title: `${site.name} — financial ventures that run themselves`,
   description:
-    "Velocifi is a founder-owned, AI-native financial-services production house. Build once. Launch many.",
+    "Velocifi is a founder-owned financial-services production house. We build ventures that run on software, not headcount. Build once. Launch many.",
   metadataBase: new URL("https://velocifi.com.au"),
   openGraph: {
-    title: `${site.name} — AI-native financial ventures`,
+    title: `${site.name} — financial ventures that run themselves`,
     description:
       "A founder-owned production house — from thesis to product to capital.",
     siteName: site.name,
