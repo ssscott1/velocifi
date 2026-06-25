@@ -72,14 +72,8 @@ export const ventures = {
     {
       name: "Baserate",
       description:
-        "Direct-to-customer car and asset finance. No broker fees, no commissions — just fast, low-cost finance.",
+        "Fast, low-cost car finance with no broker fees and no commissions.",
       status: "Pre-launch",
-    },
-    {
-      name: "Insurity",
-      description:
-        "Fast quotes with no broker fees, for car, home and business insurance.",
-      status: "Development",
     },
   ] as Venture[],
   note: "More to come.",
