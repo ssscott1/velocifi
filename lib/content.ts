@@ -34,7 +34,7 @@ export const hero = {
 export const about = {
   eyebrow: "01 — THE THESIS",
   heading: "Build once. Launch many.",
-  body: "Most companies build their technology once and use it once. We build one reusable platform — software that finds customers, makes the decisions, and runs the operations — and launch a portfolio of businesses on top of it. Each launch is faster, leaner, and sharper than the last.",
+  body: "Most companies build their technology once and use it once. We built one reusable platform — software that finds customers, makes the decisions, and runs the operations — and launch a portfolio of businesses on top of it. Each launch is faster, leaner, and sharper than the last.",
 } as const;
 
 export const platform = {
@@ -72,7 +72,7 @@ export const ventures = {
     {
       name: "Baserate",
       description:
-        "Direct-to-consumer, brokerless car finance. Australia.",
+        "Direct-to-customer car and asset finance. No broker fees, no commissions — just fast, low-cost finance.",
       status: "Testing",
     },
     {
