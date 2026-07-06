@@ -22,6 +22,9 @@ export default function About() {
           <p className="max-w-2xl text-lg leading-relaxed text-slate md:text-xl">
             {about.body}
           </p>
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate md:text-xl">
+            {about.body2}
+          </p>
         </Reveal>
       </div>
     </Section>

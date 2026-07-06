@@ -7,12 +7,12 @@ import { site } from "@/lib/content";
 export const metadata: Metadata = {
   title: `${site.name} — financial ventures that run themselves`,
   description:
-    "Velocity Works is a founder-owned financial-services production house. We build ventures that run on software, not headcount. Build once. Launch many.",
+    "Velocity Works is a founder owned financial services production house. We build ventures that run on software, not headcount. Build once. Launch many.",
   metadataBase: new URL("https://velocityworks.com.au"),
   openGraph: {
     title: `${site.name} — financial ventures that run themselves`,
     description:
-      "A founder-owned production house — from thesis to product to capital.",
+      "A founder owned production house taking each venture from thesis to product to capital.",
     siteName: site.name,
     type: "website",
   },

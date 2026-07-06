@@ -17,6 +17,12 @@ export default function Platform() {
         </h2>
       </Reveal>
 
+      <Reveal delay={140}>
+        <p className="mt-7 max-w-2xl text-lg leading-relaxed text-slate">
+          {platform.intro}
+        </p>
+      </Reveal>
+
       <div className="mt-16 grid gap-px md:grid-cols-3">
         {platform.points.map((point, i) => (
           <Reveal
