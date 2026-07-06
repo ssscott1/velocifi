@@ -1,7 +1,8 @@
-# Velocifi
+# Velocity Works
 
-The brochure site for **Velocifi** — a founder-owned, AI-native financial-services
-production house. _Build once. Launch many._
+The brochure site for **Velocity Works** — a founder-owned, AI-native
+financial-services production house. Its first venture is **Velocifi**, the
+platform that runs the ecosystem. _Build once. Launch many._
 
 Built with Next.js (App Router) + TypeScript + Tailwind CSS. No CMS, no database,
 no external APIs — all content lives in editable constants.
@@ -21,10 +22,10 @@ Other scripts: `npm run build` (production build), `npm start` (serve the build)
 
 All copy is in one file: **`lib/content.ts`**.
 
-- **Email** — `site.email` (`hello@velocifi.com.au`), used by the Contact mailto link.
+- **Email** — `site.email` (`hello@velocityworks.com.au`), used by the Contact mailto link.
 - **Tagline** — `site.tagline`.
-- **Ventures** — the `ventures.items` array (name, description, status). Add an
-  object to list another venture.
+- **Ventures** — the `ventures.items` array (name, description, status, and an
+  optional `href` that renders an external link). Add an object to list another venture.
 - Hero, thesis, platform and contact copy live alongside them in the same file.
 
 ## Adjusting the brand
