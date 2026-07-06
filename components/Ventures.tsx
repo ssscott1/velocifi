@@ -3,7 +3,7 @@ import Reveal from "./Reveal";
 import Section from "./Section";
 import { ventures } from "@/lib/content";
 
-/** 03 — Ventures. Baserate listed with a live status dot. */
+/** 03 — Ventures. Each listed with a status dot; live ventures link out. */
 export default function Ventures() {
   return (
     <Section id="ventures" divider>
@@ -23,7 +23,24 @@ export default function Ventures() {
             <li className="flex flex-col gap-3 border-t border-t-[var(--hairline)] py-8 md:flex-row md:items-baseline md:justify-between md:gap-10">
               <div className="max-w-2xl">
                 <h3 className="text-xl font-bold tracking-tight md:text-2xl">
-                  {item.name}
+                  {item.href ? (
+                    <a
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group inline-flex items-center gap-1.5 transition-colors hover:text-signal"
+                    >
+                      {item.name}
+                      <span
+                        aria-hidden="true"
+                        className="text-slate transition-transform group-hover:translate-x-0.5 group-hover:text-signal"
+                      >
+                        ↗
+                      </span>
+                    </a>
+                  ) : (
+                    item.name
+                  )}
                 </h3>
                 <p className="mt-2 text-base leading-relaxed text-slate">
                   {item.description}

@@ -20,7 +20,7 @@ interface LogoProps {
  * at any size and themes cleanly on light or dark surfaces.
  *
  * - Mark: a forward-leaning italic "V" inside a rounded-square (app-surface) tile.
- * - Wordmark: "Veloci" in Ink/Paper, "fi" in Signal green.
+ * - Wordmark: "Velocity" in Ink/Paper, "Works" in Signal green.
  */
 export default function Logo({
   withWordmark = true,
@@ -28,7 +28,7 @@ export default function Logo({
   size = 32,
   className,
 }: LogoProps) {
-  const velociColor = theme === "dark" ? "#F6F7F5" : "#11141A";
+  const velocityColor = theme === "dark" ? "#F6F7F5" : "#11141A";
   // The tile is always Ink with a Paper "V" — its app-surface look is constant.
   const tileFill = "#11141A";
   const vFill = "#F6F7F5";
@@ -62,8 +62,8 @@ export default function Logo({
       {/* ---- Wordmark ---- */}
       {withWordmark && (
         <svg
-          height={size * 0.74}
-          viewBox="0 0 300 60"
+          height={size * 0.6}
+          viewBox="0 0 340 60"
           aria-hidden="true"
           focusable="false"
           style={{ display: "block", overflow: "visible" }}
@@ -72,12 +72,12 @@ export default function Logo({
             x="0"
             y="46"
             fontFamily='"Helvetica Neue", Helvetica, Arial, system-ui, sans-serif'
-            fontSize="56"
+            fontSize="52"
             fontWeight="700"
-            letterSpacing="-2.2"
+            letterSpacing="-2"
           >
-            <tspan fill={velociColor}>Veloci</tspan>
-            <tspan fill="#00C46E">fi</tspan>
+            <tspan fill={velocityColor}>Velocity </tspan>
+            <tspan fill="#00C46E">Works</tspan>
           </text>
         </svg>
       )}

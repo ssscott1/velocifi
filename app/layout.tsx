@@ -7,8 +7,8 @@ import { site } from "@/lib/content";
 export const metadata: Metadata = {
   title: `${site.name} — financial ventures that run themselves`,
   description:
-    "Velocifi is a founder-owned financial-services production house. We build ventures that run on software, not headcount. Build once. Launch many.",
-  metadataBase: new URL("https://velocifi.com.au"),
+    "Velocity Works is a founder-owned financial-services production house. We build ventures that run on software, not headcount. Build once. Launch many.",
+  metadataBase: new URL("https://velocityworks.com.au"),
   openGraph: {
     title: `${site.name} — financial ventures that run themselves`,
     description:

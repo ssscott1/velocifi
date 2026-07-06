@@ -1,5 +1,5 @@
 /**
- * Velocifi site content.
+ * Velocity Works site content.
  *
  * This is the single place to edit copy. Change the email, tagline, sections
  * or ventures here and they update across the whole site. No component holds
@@ -7,9 +7,9 @@
  */
 
 export const site = {
-  name: "Velocifi",
-  legalName: "Velocifi Pty Ltd",
-  email: "hello@velocifi.com.au",
+  name: "Velocity Works",
+  legalName: "Velocity Works Pty Ltd",
+  email: "hello@velocityworks.com.au",
   tagline: "Build once. Launch many.",
   year: 2026,
 } as const;
@@ -63,6 +63,8 @@ interface Venture {
   name: string;
   description: string;
   status: VentureStatus;
+  /** Optional external link (e.g. a live venture site). */
+  href?: string;
 }
 
 export const ventures = {
@@ -70,10 +72,17 @@ export const ventures = {
   heading: "Our ventures.",
   items: [
     {
-      name: "Baserate",
+      name: "Velocifi",
       description:
-        "Fast, low-cost car finance with no broker fees and no commissions.",
+        "An intelligent sales and finance platform — a world-class broker experience, any time of day or night, without the broker. The advanced engine that runs the Velocity Works ecosystem.",
       status: "Pre-launch",
+    },
+    {
+      name: "BaseRate",
+      description:
+        "Fast, low-cost car finance with multiple lender options and straight-through processing. No broker fees, no commissions.",
+      status: "Live",
+      href: "https://www.baserate.com.au",
     },
   ] as Venture[],
   note: "More to come.",
