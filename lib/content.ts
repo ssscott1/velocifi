@@ -118,6 +118,13 @@ export const ventures = {
       status: "Live",
       href: "https://www.baserate.com.au",
     },
+    {
+      name: "Asset Finance Australia",
+      description:
+        "Finance for business vehicles, equipment, and machinery. Multiple lender options with no broker fees and no commissions.",
+      status: "Live",
+      href: "https://www.assetfinanceaustralia.com.au/",
+    },
   ] as Venture[],
   note: "More to come.",
 };
