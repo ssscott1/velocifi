@@ -121,7 +121,7 @@ export const ventures = {
     {
       name: "Asset Finance Australia",
       description:
-        "Finance for business vehicles, equipment, and machinery. Multiple lender options with no broker fees and no commissions.",
+        "Quick approvals for established businesses. Finance for business vehicles, equipment, and machinery.",
       status: "Live",
       href: "https://www.assetfinanceaustralia.com.au/",
     },
