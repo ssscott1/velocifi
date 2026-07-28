@@ -64,7 +64,7 @@ export const howItWorks = {
   eyebrow: "03 — HOW IT WORKS",
   heading: "A world-class broker experience. Without the broker.",
   intro:
-    "A traditional broker knows part of the market, works 9am to 5pm, and brings their own preferences to every deal. Vela, Velocifi's AI broker knows all of our products, all of the time. Customers can speak with Vela over the phone, by email or by text at any hour, day or night — a system trained across every finance product we have access to and built to recommend based solely on what suits the customer. It never forgets a product, never pushes a favourite, and never makes anyone wait until Monday for a call back.",
+    "A traditional broker knows part of the market, works 9am to 5pm, and brings their own preferences to every deal. Vela, Velocifi's AI broker knows all of our products, all of the time. Customers can speak with Vela over the phone, by email or by text at any hour, day or night — an agent trained across every finance product we have access to and built to recommend based solely on what suits the customer. Vela never forgets a product, never pushes a favourite, and never makes anyone wait until Monday for a call back.",
   steps: [
     {
       label: "01 · Enquire",
