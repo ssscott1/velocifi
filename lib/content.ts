@@ -24,11 +24,10 @@ export const nav = {
 } as const;
 
 export const hero = {
-  eyebrow: "AUTONOMOUS FINANCIAL SERVICES · PRODUCTION HOUSE",
   // The headline period is rendered as a green accent in the component.
   headline: "We build financial ventures that run themselves",
   subline:
-    "A founder owned production house taking each venture from thesis to product to capital. The work runs on software, not headcount.",
+    "A future focused financial services production house that runs on software, not headcount.",
   cta: { label: "Get in touch", href: "#contact" },
 } as const;
 

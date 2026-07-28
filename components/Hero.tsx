@@ -1,4 +1,3 @@
-import Eyebrow from "./Eyebrow";
 import Reveal from "./Reveal";
 import { hero } from "@/lib/content";
 
@@ -13,12 +12,8 @@ export default function Hero() {
       className="relative bg-ink text-paper"
     >
       <div className="mx-auto flex min-h-[88vh] max-w-shell flex-col justify-center px-6 py-32 md:py-40">
-        <Reveal>
-          <Eyebrow theme="dark">{hero.eyebrow}</Eyebrow>
-        </Reveal>
-
         <Reveal delay={80}>
-          <h1 className="mt-8 max-w-4xl text-balance text-4xl font-bold leading-[1.05] tracking-tightest sm:text-6xl md:text-7xl">
+          <h1 className="max-w-4xl text-balance text-4xl font-bold leading-[1.05] tracking-tightest sm:text-6xl md:text-7xl">
             {hero.headline}
             <span className="text-signal">.</span>
           </h1>
