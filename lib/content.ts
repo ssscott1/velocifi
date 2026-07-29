@@ -25,9 +25,9 @@ export const nav = {
 
 export const hero = {
   // The headline period is rendered as a green accent in the component.
-  headline: "We build financial ventures that run themselves",
+  headline: "We build financial services products that run on software, not headcount",
   subline:
-    "A future focused financial services production house that runs on software, not headcount.",
+    "Highly efficient, customer focused financial services businesses — engineered to be infinitely scalable and fully compliant.",
   cta: { label: "Get in touch", href: "#contact" },
 } as const;
 
