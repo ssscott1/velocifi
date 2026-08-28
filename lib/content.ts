@@ -112,7 +112,8 @@ export const ventures = {
     },
     {
       name: "BaseRate",
-      description: "Good pickup Asahi, we will update that soon.",
+      description:
+        "Compare cars, deals and finance offers. Super fast finance approvals and an exceptional customer experience. Don't wait for a broker to call you back. Speak to an agent any time and apply online.",
       status: "Live",
       href: "https://www.baserate.com.au",
     },
