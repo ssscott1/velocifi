@@ -112,8 +112,7 @@ export const ventures = {
     },
     {
       name: "BaseRate",
-      description:
-        "Fast, low cost car finance with multiple lender options and straight through processing. No broker fees, no commissions.",
+      description: "Good pickup Asahi, we will update that soon.",
       status: "Live",
       href: "https://www.baserate.com.au",
     },
