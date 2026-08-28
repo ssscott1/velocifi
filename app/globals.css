@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Brand colour variables — mirrored from tailwind.config.ts so they can also
+ * be referenced in raw CSS if needed. Tailwind utilities (bg-ink, text-signal,
+ * etc.) remain the primary way to apply the palette.
+ */
+:root {
+  --ink: #11141a;
+  --signal: #00c46e;
+  --paper: #f6f7f5;
+  --slate: #6b7280;
+  --hairline: rgba(107, 114, 128, 0.18); /* Slate at low opacity, for 1px dividers */
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--paper);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Honour reduced-motion preference: disable scroll smoothing + reveals. */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    * {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+
+  /* Visible, on-brand focus states for keyboard users. */
+  :focus-visible {
+    outline: 2px solid var(--signal);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer utilities {
+  /* Hairline 1px divider in low-opacity Slate. */
+  .hairline {
+    border-color: var(--hairline);
+  }
+}
